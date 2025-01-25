@@ -1,0 +1,67 @@
+[DWF6Version]
+Ver=1
+[DWF6MinorVersion]
+MinorVer=1
+[DWF6Sheet:\U+8F74\U+7CFB\U+88C5\U+914D\U+56FE-\U+5218\U+4F83-\U+6A21\U+578B]
+DWG=D:\工程图学\轴系装配图-刘侃.dwg
+Layout=Model
+Setup=
+OriginalSheetPath=D:\工程图学\轴系装配图-刘侃.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:\U+8F74\U+7CFB\U+88C5\U+914D\U+56FE-\U+5218\U+4F83-\U+5E03\U+5C401]
+DWG=D:\工程图学\轴系装配图-刘侃.dwg
+Layout=布局1
+Setup=
+OriginalSheetPath=D:\工程图学\轴系装配图-刘侃.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:\U+8F74\U+7CFB\U+88C5\U+914D\U+56FE-\U+5218\U+4F83-\U+5E03\U+5C402]
+DWG=D:\工程图学\轴系装配图-刘侃.dwg
+Layout=布局2
+Setup=
+OriginalSheetPath=D:\工程图学\轴系装配图-刘侃.dwg
+Has Plot Port=0
+Has3DDWF=0
+[Target]
+Type=6
+DWF=D:\工程图学\轴系装配图-刘侃.pdf
+OUT=D:\工程图学\
+PWD=
+[MRU Local]
+MRU=1
+File0=D:\工程图学\
+[MRU Sheet List]
+MRU=0
+[PdfOptions]
+IncludeHyperlinks=TRUE
+CreateBookmarks=TRUE
+CaptureFontsInDrawing=TRUE
+ConvertTextToGeometry=FALSE
+VectorResolution=1200
+RasterResolution=400
+[AutoCAD Block Data]
+IncludeBlockInfo=0
+BlockTmplFilePath=
+[SheetSet Properties]
+IsSheetSet=FALSE
+IsHomogeneous=FALSE
+SheetSet Name=
+NoOfCopies=1
+PlotStampOn=FALSE
+ViewFile=FALSE
+JobID=0
+SelectionSetName=
+AcadProfile=<<未命名配置>>
+CategoryName=
+LogFilePath=
+IncludeLayer=TRUE
+LineMerge=FALSE
+CurrentPrecision=
+PromptForDwfName=TRUE
+PwdProtectPublishedDWF=FALSE
+PromptForPwd=FALSE
+RepublishingMarkups=FALSE
+PublishSheetSetMetadata=FALSE
+PublishSheetMetadata=FALSE
+3DDWFOptions=0 1
