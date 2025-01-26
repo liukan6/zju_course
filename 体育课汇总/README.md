@@ -41,7 +41,7 @@
 
 这课还有一次户外出游的机会，非常有趣
 
-![outdoor_activity](image/outdoor_activity.jpg)
+![outdoor_activity](https://github.com/liukan6/zju_course/blob/main/image/outdoor_activity.jpg)
 
 考核是助教参与和先锋攀登，助教参与同样是5次，先锋攀登是自己挂绳子，难度颇大
 
