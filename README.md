@@ -1,5 +1,7 @@
 # 💡 some course resource
 
+浙江大学22级机械工程课程资料
+
 hello~🎇
 
 I‘m a normal student studying in zhejiang university as an undergraduate student from 2022-2025
