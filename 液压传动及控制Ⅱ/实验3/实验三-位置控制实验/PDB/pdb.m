@@ -1,0 +1,56 @@
+function moveabs(filename,sheet,color)
+Y1 = xlsread(filename,sheet);
+%% 调试用
+% Y1 = xlsread('pdb_1.dbf','pdb_1');
+% color='r';
+%Y1 = Y(NN:end,1:7);%如果实验开始前有数据波动，修改NN值至合适的起始点
+%% 参数设置
+Target_p=1;         %Target Position油缸目标位置所在列
+Actual_P=2;         %Actual Position油缸实际位置所在列
+Interpolated_P=3;   %Interpolated Position油缸插值位置所在列
+Interpolated_V=4;   %Interpolated Velocity油缸插值速度所在列
+ValueA=5;           %用户自定义数据所在列
+IAC_Apre=6;         %IAC_Apre所在列
+IAC_Pos_following_error=7;     %IAC_Pos_following error所在列
+IAC_valve_cmd=8;    %IAC_valve_cmd所在列
+Fs=500;             %控制器控制周期2ms
+[m,n]=size(Y1);     %采集数据的维度
+startP=50;          %油缸初始位置
+targetP=250;        %油缸目标位置
+pdbwindow=10;       %PDB窗口
+valueA_factor=10000;%用户自定义数据所在列的比例因子
+Velocity_high=100;  %设置的油缸高速运动速度
+Velocity_low=5;     %设置的油缸低速运动速度
+color1=strcat(color,':');
+color2=strcat(color,'--');
+color3=strcat(color,'-.');
+color4=strcat(color,'-');
+color5=strcat(color,'--');
+%% 获取目标位置信号的改变点
+index = [];             %保存数据转折的行号
+condition1 = Y1(:,Interpolated_V) == 0;  
+condition2 = Y1(:,ValueA) == startP*valueA_factor;
+condition3 = Y1(:,ValueA) == targetP*valueA_factor;
+condition4 = Y1(:,Interpolated_V) == Velocity_low; 
+condition5 = Y1(:,Target_p) == targetP; 
+index(1) = find(condition1 & condition2,1,'last');  %获取PDB运动开始的行号
+index(2) = find(condition1 & condition3,1,'first'); %获取PDB运动结束的行号
+index(3) = find(condition4 & condition5,1,'first'); %获取进入低速运动的行号
+%% 画图
+t1=0:1/Fs:(index(2)-index(1))/Fs;
+plot(t1,Y1(index(1):index(2),Target_p),color1)
+hold on
+plot(t1,Y1(index(1):index(2),Actual_P),color2)
+hold on
+plot(t1,Y1(index(1):index(2),Interpolated_P),color3)
+hold on
+plot(t1,Y1(index(1):index(2),Interpolated_V),color4)
+hold on
+plot(t1,Y1(index(1):index(2),ValueA)/valueA_factor,color5)
+hold on
+% xline((index(3)-index(1))/Fs,color);
+ xline((index(3)-index(1))/Fs);
+yline(0);
+yline(targetP-pdbwindow);
+xlabel('时间(s)');
+ylabel('位移（mm）,速度（mm/s）');

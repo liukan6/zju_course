@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CurveSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>位置控制-WRPEH阀参数配置</Name>
+  <Date>6/1/2022 2:53:34 PM</Date>
+  <ParVersion>PARAMETER_14VRS</ParVersion>
+  <CurveList>
+    <Curve>
+      <CurveId>0</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Target position</ParName>
+      <ParIdentNo>A-0-2201</ParIdentNo>
+      <ParId>4294969497</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>1</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Interpolated position</ParName>
+      <ParIdentNo>A-0-0150</ParIdentNo>
+      <ParId>4294967446</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>2</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Actual position value</ParName>
+      <ParIdentNo>A-0-0100</ParIdentNo>
+      <ParId>4294967396</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>3</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Interpolated velocity</ParName>
+      <ParIdentNo>A-0-0152</ParIdentNo>
+      <ParId>4294967448</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm/s</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>4</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Output control variable adjustment</ParName>
+      <ParIdentNo>P-0-2876</ParIdentNo>
+      <ParId>35644</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>%</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>5</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Spool feedback value</ParName>
+      <ParIdentNo>S-0-0862</ParIdentNo>
+      <ParId>862</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>%</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>6</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>System pressure</ParName>
+      <ParIdentNo>S-0-0813</ParIdentNo>
+      <ParId>813</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>bar</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>7</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Pressure feedback value A</ParName>
+      <ParIdentNo>S-0-0803</ParIdentNo>
+      <ParId>803</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>bar</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>8</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Pressure feedback value B</ParName>
+      <ParIdentNo>S-0-0804</ParIdentNo>
+      <ParId>804</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>bar</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>9</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Tank pressure</ParName>
+      <ParIdentNo>S-0-0814</ParIdentNo>
+      <ParId>814</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>bar</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+  </CurveList>
+</CurveSettings>

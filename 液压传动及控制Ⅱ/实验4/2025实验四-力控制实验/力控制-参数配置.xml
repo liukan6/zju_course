@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CurveSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>力控制-参数配置</Name>
+  <Date>5/24/2022 2:48:45 PM</Date>
+  <ParVersion>PARAMETER_14VRS</ParVersion>
+  <CurveList>
+    <Curve>
+      <CurveId>0</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Position command value of controller</ParName>
+      <ParIdentNo>P-0-0434</ParIdentNo>
+      <ParId>33202</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>1</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Active position feedback value</ParName>
+      <ParIdentNo>S-0-0386</ParIdentNo>
+      <ParId>386</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>2</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Torque/force command value of controller</ParName>
+      <ParIdentNo>P-0-0069</ParIdentNo>
+      <ParId>32837</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>N</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>3</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Torque/force feedback value 2</ParName>
+      <ParIdentNo>S-0-0552</ParIdentNo>
+      <ParId>552</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>N</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>4</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Alternating control, status word</ParName>
+      <ParIdentNo>P-0-2855</ParIdentNo>
+      <ParId>35623</ParId>
+      <UnionType>DWord</UnionType>
+      <Unit>--</Unit>
+      <Format>EH4</Format>
+    </Curve>
+    <Curve>
+      <CurveId>5</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Output control variable adjustment</ParName>
+      <ParIdentNo>P-0-2876</ParIdentNo>
+      <ParId>35644</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>%</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>6</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Spool feedback value</ParName>
+      <ParIdentNo>S-0-0862</ParIdentNo>
+      <ParId>862</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>%</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>7</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Active velocity feedback value</ParName>
+      <ParIdentNo>S-0-0535</ParIdentNo>
+      <ParId>535</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm/s</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>8</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>System pressure</ParName>
+      <ParIdentNo>S-0-0813</ParIdentNo>
+      <ParId>813</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>bar</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>9</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Tank pressure</ParName>
+      <ParIdentNo>S-0-0814</ParIdentNo>
+      <ParId>814</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>bar</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>10</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Pressure feedback value A</ParName>
+      <ParIdentNo>S-0-0803</ParIdentNo>
+      <ParId>803</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>bar</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>11</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Pressure feedback value B</ParName>
+      <ParIdentNo>S-0-0804</ParIdentNo>
+      <ParId>804</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>bar</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+  </CurveList>
+</CurveSettings>

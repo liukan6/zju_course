@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CurveSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>同步控制-20240527</Name>
+  <Date>5/27/2024 3:34:42 AM</Date>
+  <ParVersion>PARAMETER_14VRS</ParVersion>
+  <CurveList>
+    <Curve>
+      <CurveId>0</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>2</DeviceNo>
+      <DeviceName>Drive1</DeviceName>
+      <ParName>Target position</ParName>
+      <ParIdentNo>A-0-2201</ParIdentNo>
+      <ParId>4294969497</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>1</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>2</DeviceNo>
+      <DeviceName>Drive1</DeviceName>
+      <ParName>Actual position value</ParName>
+      <ParIdentNo>A-0-0100</ParIdentNo>
+      <ParId>4294967396</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>2</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>2</DeviceNo>
+      <DeviceName>Drive1</DeviceName>
+      <ParName>Interpolated position</ParName>
+      <ParIdentNo>A-0-0150</ParIdentNo>
+      <ParId>4294967446</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>3</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>2</DeviceNo>
+      <DeviceName>Drive1</DeviceName>
+      <ParName>Interpolated velocity</ParName>
+      <ParIdentNo>A-0-0152</ParIdentNo>
+      <ParId>4294967448</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm/s</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>4</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Target position</ParName>
+      <ParIdentNo>A-0-2201</ParIdentNo>
+      <ParId>4294969497</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>5</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Actual position value</ParName>
+      <ParIdentNo>A-0-0100</ParIdentNo>
+      <ParId>4294967396</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>6</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Interpolated position</ParName>
+      <ParIdentNo>A-0-0150</ParIdentNo>
+      <ParId>4294967446</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>7</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>3</DeviceNo>
+      <DeviceName>cAxis1</DeviceName>
+      <ParName>Interpolated velocity</ParName>
+      <ParIdentNo>A-0-0152</ParIdentNo>
+      <ParId>4294967448</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm/s</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>8</CurveId>
+      <DeviceType>Axis</DeviceType>
+      <DeviceNo>4</DeviceNo>
+      <DeviceName>cAxis2</DeviceName>
+      <ParName>Synchronization current fault absolute</ParName>
+      <ParIdentNo>P-0-2860.0.10</ParIdentNo>
+      <ParId>690988</ParId>
+      <UnionType>Real</UnionType>
+      <Unit>mm</Unit>
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>9</CurveId>
+      <DeviceType>SymbolicVar</DeviceType>
+      <DeviceNo>0</DeviceNo>
+      <DeviceName>Application.fast_testbench_data.IAC_valve_cmd</DeviceName>
+      <ParName>fast_testbench_data.IAC_valve_cmd</ParName>
+      <ParIdentNo />
+      <ParId>17179869185</ParId>
+      <UnionType>Real</UnionType>
+      <Unit />
+      <Format>EF10.3</Format>
+    </Curve>
+    <Curve>
+      <CurveId>10</CurveId>
+      <DeviceType>SymbolicVar</DeviceType>
+      <DeviceNo>0</DeviceNo>
+      <DeviceName>Application.fast_testbench_data.IAC_valve_feedback</DeviceName>
+      <ParName>fast_testbench_data.IAC_valve_feedback</ParName>
+      <ParIdentNo />
+      <ParId>17179869186</ParId>
+      <UnionType>Real</UnionType>
+      <Unit />
+      <Format>EF10.3</Format>
+    </Curve>
+  </CurveList>
+</CurveSettings>
